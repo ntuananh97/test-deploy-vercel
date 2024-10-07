@@ -3,9 +3,8 @@ import { redirect } from 'next/navigation'
 
 export default function Home() {
   
-  redirect(ROUTE_CONFIG.TOPIC)
   
   return (
-    <></>
+    <div>Hello home page</div>
   );
 }
