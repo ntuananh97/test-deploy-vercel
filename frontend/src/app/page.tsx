@@ -1,10 +1,13 @@
-import { ROUTE_CONFIG } from '@/configs/route';
-import { redirect } from 'next/navigation'
+"use client";
+
 
 export default function Home() {
+
   
-  
+
   return (
-    <div>Hello home page</div>
+    <main className="">
+      Hello
+    </main>
   );
 }
